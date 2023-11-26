@@ -1,16 +1,17 @@
-# bin2dec
+#Bin2Dec Converter
+Binary is the fundamental number system that underpins all digital computers, making it essential for developers to grasp its concepts. The Bin2Dec Converter is a simple tool designed to help users practice and understand binary mathematics. It allows users to input strings of up to 8 binary digits (0s and 1s) in any order and then instantly displays the equivalent decimal (base 10) value.
 
-A new Flutter project.
+##Key Features
+Input up to 8 binary digits.
+Real-time validation to notify the user if anything other than 0 or 1 is entered.
+Accurate conversion of binary to decimal using a single mathematical function, optimizing efficiency.
 
-## Getting Started
+##Constraints
+No use of arrays to store binary digits.
+Calculation of decimal equivalents of binary digits must rely on a single mathematical function (e.g., natural logarithm).
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##How to Use
+Enter a binary number consisting of up to 8 digits (0s and 1s) into the input field.
+The converter will instantly calculate and display the decimal equivalent in the output field.
+If any invalid characters are detected in the input, you will be notified.
+Developed with simplicity and efficiency in mind, the Bin2Dec Converter is a valuable tool for developers looking to strengthen their understanding of binary mathematics. Enhance your binary skills and effortlessly convert binary to decimal with this easy-to-use utility.
